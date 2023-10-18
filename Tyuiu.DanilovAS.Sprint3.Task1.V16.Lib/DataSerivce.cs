@@ -13,15 +13,15 @@ namespace Tyuiu.DanilovAS.Sprint3.Task1.V16.Lib
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
             int i;
-            double sumseries = 0;
-
-            for (i = startValue; i <= stopValue; i++)
+            double sumseries = 1;
+            while (startValue < stopValue)
             {
-                sumseries += (Math.Pow(value, 2) * Math.Sin(i) + 1);
+                sumseries += (Math.Pow(value, 2) * Math.Sin(startValue) + 1);
+                startValue++;
             }
 
 
-            return 1;
+            return Math.Round(sumseries,3);
         }
     }
 }
