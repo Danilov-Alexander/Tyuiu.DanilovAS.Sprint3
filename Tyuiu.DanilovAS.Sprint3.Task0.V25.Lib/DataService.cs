@@ -20,6 +20,7 @@ namespace Tyuiu.DanilovAS.Sprint3.Task0.V25.Lib
                 sumseries += Math.Pow(4 / (1 + Math.Pow(value, i)), i);
             }
 
+
             return Math.Round(sumseries,3);
         }
     }

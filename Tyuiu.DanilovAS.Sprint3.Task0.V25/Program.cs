@@ -12,6 +12,7 @@ namespace Tyuiu.DanilovAS.Sprint3.Task0.V25
     {
         static void Main(string[] args)
         {
+
             DataService ds = new DataService();
 
             Console.Title = "Спринт #3 | Выполнил: Данилов А. С. | ИСТНб-23-1";
